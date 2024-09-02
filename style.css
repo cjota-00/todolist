@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00FA9A;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 4%;
+    width: 500px;
+}
+.tarefa{
+    padding: 20px;
+    border: 2px solid rgb(21, 16, 16);
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+}
+form{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.form-control{
+    display: flex;
+}
+.form-control input{
+    flex: 1;
+    color: #FFF;
+    background-color: #2F4F4F;
+    margin-right: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 0.9em;
+    outline:0;
+}
+input::placeholder{
+    color: #FFF;
+}
+.form-control button{
+    padding:10px;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form-control button:hover{
+    background-color: #5F9EA0;
+    color: #FFF;
+}
+.todo-list{
+    display: block;
+}
+.todo{
+    margin-top: 5px;
+    display: flex;
+    padding: 5px;
+    background-color: #ffffffc6;
+    border-radius: 10px;
+}
+.todo h3{
+    flex: 1;
+    padding: 10px;
+    background-color: #5F9EA0;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-shadow: 6px 5px 10px 0px rgb(70, 68, 68);
+    
+}
+
+
+.todo button{
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.todo button:hover{
+    background-color: #2F4F4F;
+    color: #FFF;
+}
+button i{
+    pointer-events: none;
+}
+.checked{
+    color: white;
+    text-decoration: line-through #000;
+}
+
